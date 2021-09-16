@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9678" started-at="2021-09-14T00:55:45Z" finished-at="2021-09-14T00:55:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9678" started-at="2021-09-14T00:55:45Z" finished-at="2021-09-14T00:55:55Z">
+      <class name="org.testng.AdactingTestNG">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:org.testng.AdactingTestNG@1794d431]" name="beforeclass" is-config="true" duration-ms="5010" started-at="2021-09-14T00:55:45Z" finished-at="2021-09-14T00:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="username(java.lang.String, java.lang.String)[pri:0, instance:org.testng.AdactingTestNG@1794d431]" name="username" duration-ms="913" started-at="2021-09-14T00:55:50Z" finished-at="2021-09-14T00:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gokul2109]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gokul@2109]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username -->
+        <test-method status="PASS" signature="location()[pri:1, instance:org.testng.AdactingTestNG@1794d431]" name="location" duration-ms="200" started-at="2021-09-14T00:55:51Z" finished-at="2021-09-14T00:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- location -->
+        <test-method status="PASS" signature="hotels()[pri:2, instance:org.testng.AdactingTestNG@1794d431]" name="hotels" duration-ms="164" started-at="2021-09-14T00:55:51Z" finished-at="2021-09-14T00:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotels -->
+        <test-method status="PASS" signature="roomtype()[pri:3, instance:org.testng.AdactingTestNG@1794d431]" name="roomtype" duration-ms="155" started-at="2021-09-14T00:55:51Z" finished-at="2021-09-14T00:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roomtype -->
+        <test-method status="PASS" signature="noofrooms()[pri:4, instance:org.testng.AdactingTestNG@1794d431]" name="noofrooms" duration-ms="157" started-at="2021-09-14T00:55:51Z" finished-at="2021-09-14T00:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noofrooms -->
+        <test-method status="PASS" signature="checkin(java.lang.String, java.lang.String)[pri:5, instance:org.testng.AdactingTestNG@1794d431]" name="checkin" duration-ms="116" started-at="2021-09-14T00:55:52Z" finished-at="2021-09-14T00:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14/09/2021]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15/09/2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkin -->
+        <test-method status="PASS" signature="adultroom()[pri:6, instance:org.testng.AdactingTestNG@1794d431]" name="adultroom" duration-ms="146" started-at="2021-09-14T00:55:52Z" finished-at="2021-09-14T00:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adultroom -->
+        <test-method status="PASS" signature="childrenroom()[pri:7, instance:org.testng.AdactingTestNG@1794d431]" name="childrenroom" duration-ms="148" started-at="2021-09-14T00:55:52Z" finished-at="2021-09-14T00:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- childrenroom -->
+        <test-method status="PASS" signature="search()[pri:8, instance:org.testng.AdactingTestNG@1794d431]" name="search" duration-ms="479" started-at="2021-09-14T00:55:52Z" finished-at="2021-09-14T00:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="radiobtn()[pri:9, instance:org.testng.AdactingTestNG@1794d431]" name="radiobtn" duration-ms="86" started-at="2021-09-14T00:55:52Z" finished-at="2021-09-14T00:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiobtn -->
+        <test-method status="PASS" signature="continuebtn()[pri:10, instance:org.testng.AdactingTestNG@1794d431]" name="continuebtn" duration-ms="469" started-at="2021-09-14T00:55:53Z" finished-at="2021-09-14T00:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuebtn -->
+        <test-method status="PASS" signature="firstname(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:org.testng.AdactingTestNG@1794d431]" name="firstname" duration-ms="370" started-at="2021-09-14T00:55:53Z" finished-at="2021-09-14T00:55:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karthick]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[krish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstname -->
+        <test-method status="PASS" signature="cctype()[pri:12, instance:org.testng.AdactingTestNG@1794d431]" name="cctype" duration-ms="141" started-at="2021-09-14T00:55:53Z" finished-at="2021-09-14T00:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cctype -->
+        <test-method status="PASS" signature="ccexpmonth()[pri:13, instance:org.testng.AdactingTestNG@1794d431]" name="ccexpmonth" duration-ms="305" started-at="2021-09-14T00:55:54Z" finished-at="2021-09-14T00:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ccexpmonth -->
+        <test-method status="PASS" signature="ccexpyear()[pri:14, instance:org.testng.AdactingTestNG@1794d431]" name="ccexpyear" duration-ms="515" started-at="2021-09-14T00:55:54Z" finished-at="2021-09-14T00:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ccexpyear -->
+        <test-method status="PASS" signature="ccCvv(java.lang.String)[pri:15, instance:org.testng.AdactingTestNG@1794d431]" name="ccCvv" duration-ms="115" started-at="2021-09-14T00:55:54Z" finished-at="2021-09-14T00:55:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ccCvv -->
+        <test-method status="PASS" signature="booknow()[pri:16, instance:org.testng.AdactingTestNG@1794d431]" name="booknow" duration-ms="113" started-at="2021-09-14T00:55:55Z" finished-at="2021-09-14T00:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booknow -->
+      </class> <!-- org.testng.AdactingTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

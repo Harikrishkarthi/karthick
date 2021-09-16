@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="gokul@2109"/>
+    <parameter name="firstname" value="karthick"/>
+    <parameter name="ccCvv" value="1234"/>
+    <parameter name="checkin" value="14/09/2021"/>
+    <parameter name="address" value="chennai"/>
+    <parameter name="ccnum" value="1234567890123456"/>
+    <parameter name="checkout" value="15/09/2021"/>
+    <parameter name="username" value="Gokul2109"/>
+    <parameter name="lastname" value="krish"/>
+    <classes>
+      <class name="org.testng.Testng1">
+        <methods>
+          <include name="checkin" invocation-numbers="0"/>
+          <include name="ccexpmonth"/>
+          <include name="search"/>
+          <include name="booknow"/>
+          <include name="adultroom"/>
+          <include name="hotels"/>
+          <include name="checkout" invocation-numbers="0"/>
+          <include name="location"/>
+          <include name="ccexpyear"/>
+          <include name="radiobtn"/>
+          <include name="ccCvv" invocation-numbers="0"/>
+          <include name="firstname" invocation-numbers="0"/>
+          <include name="address" invocation-numbers="0"/>
+          <include name="ccnum" invocation-numbers="0"/>
+          <include name="childrenroom"/>
+          <include name="noofrooms"/>
+          <include name="beforeclass"/>
+          <include name="continuebtn"/>
+          <include name="lastname" invocation-numbers="0"/>
+          <include name="roomtype"/>
+          <include name="cctype"/>
+        </methods>
+      </class> <!-- org.testng.Testng1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
